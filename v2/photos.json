@@ -93,7 +93,7 @@
     "src": "img/hickson.jpg",
     "w": 960,
     "h": 626,
-    "alt": "Harbour Bridge from The Rocks",
+    "alt": "Sydney Harbour Bridge",
     "credit": "Bahnfrend",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Sydney_Harbour_Bridge,_2017_(01).jpg"
@@ -228,7 +228,7 @@
     "src": "img/pizza2.jpg",
     "w": 960,
     "h": 576,
-    "alt": "Wood-fired pizza",
+    "alt": "Wood-fired pizza oven",
     "credit": "Tony Webster from Portland, Oregon, United States",
     "license": "CC BY 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Punch_Neapolitan_Pizza_(2257039638).jpg"
@@ -367,14 +367,5 @@
     "credit": "avlxyz",
     "license": "CC BY-SA 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Pad_Thai_tofu_and_veg_-_Mint_Thai_AUD9.jpg"
-  },
-  "asianbowl": {
-    "src": "img/asianbowl.jpg",
-    "w": 960,
-    "h": 720,
-    "alt": "Tofu rice bowl",
-    "credit": "pelican from Tokyo, Japan",
-    "license": "CC BY-SA 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Rice_bowl_topped_with_tofu_(7960798384).jpg"
   }
 }
