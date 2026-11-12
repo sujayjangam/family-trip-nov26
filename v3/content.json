@@ -144,7 +144,7 @@
         {
           "name": "Chat Thai",
           "price": "A$22–38",
-          "text": "Thai stir-fries and tofu curries. Check every sauce has no seafood.",
+          "text": "Thai stir-fries and tofu curries.",
           "url": "https://www.chatthai.com.au/",
           "map": "Chat Thai Circular Quay",
           "photo": "thaicurry",
@@ -175,31 +175,7 @@
           ]
         }
       ],
-      "route": [
-        "home",
-        "quay"
-      ],
-      "deck": "Sails, ferries and the first sunset.",
-      "budget": [
-        {
-          "label": "Lunch near home",
-          "low": 25,
-          "high": 40,
-          "per": "person"
-        },
-        {
-          "label": "Dinner at the harbour",
-          "low": 25,
-          "high": 40,
-          "per": "person"
-        },
-        {
-          "label": "Evening parking",
-          "low": 24,
-          "high": 41,
-          "per": "car"
-        }
-      ]
+      "deck": "Sails, ferries and the first sunset."
     },
     {
       "id": "sat",
@@ -358,7 +334,7 @@
         },
         {
           "name": "Black Star Pastry",
-          "text": "Famous strawberry-watermelon cake (~A$13). Contains almonds. Newtown, open till 10pm Sat.",
+          "text": "Famous strawberry-watermelon cake (~A$13). Newtown, open till 10pm Sat.",
           "url": "https://blackstarpastry.com/pages/locations",
           "map": "Black Star Pastry Newtown",
           "photo": "bscake",
@@ -387,36 +363,7 @@
           ]
         }
       ],
-      "route": [
-        "home",
-        "featherdale",
-        "dfo"
-      ],
-      "deck": "Soft paws in the morning, bargains after lunch.",
-      "budget": [
-        {
-          "label": "Featherdale entry",
-          "low": 40,
-          "high": 49,
-          "per": "person"
-        },
-        {
-          "label": "Lunch at DFO",
-          "low": 25,
-          "high": 40,
-          "per": "person"
-        },
-        {
-          "label": "Dinner",
-          "low": 25,
-          "high": 40,
-          "per": "person"
-        },
-        {
-          "label": "Parking, both stops",
-          "per": "check"
-        }
-      ]
+      "deck": "Soft paws in the morning, bargains after lunch."
     },
     {
       "id": "sun",
@@ -571,31 +518,7 @@
           ]
         }
       ],
-      "route": [
-        "home",
-        "katoomba"
-      ],
-      "deck": "A day among the sandstone cliffs and gum trees.",
-      "budget": [
-        {
-          "label": "Scenic World pass",
-          "low": 64,
-          "per": "person",
-          "from": true
-        },
-        {
-          "label": "Katoomba lunch",
-          "low": 20,
-          "high": 40,
-          "per": "person"
-        },
-        {
-          "label": "Scenic World parking",
-          "low": 0,
-          "high": 0,
-          "per": "car"
-        }
-      ]
+      "deck": "A day among the sandstone cliffs and gum trees."
     },
     {
       "id": "mon",
@@ -603,17 +526,62 @@
       "num": "30",
       "dow": "Mon",
       "short": "Mon 30",
-      "title": "Bondi Beach & giraffes",
-      "summary": "Two ways to do today. Pick one the night before.",
+      "title": "Taronga giraffes & Bondi Beach",
+      "summary": "The whole family at Taronga Zoo in the morning, then Bondi Beach from lunchtime.",
       "pace": "Easy",
       "gallery": [
-        "giraffe",
         "bondi",
+        "giraffe",
         "icebergsday",
         "pavilion",
         "coastwalk"
       ],
-      "schedule": [],
+      "schedule": [
+        {
+          "time": "9:00am",
+          "part": "morning",
+          "text": "Leave home in both cars (about 15–20 min). Park on Bradleys Head Road.",
+          "map": "Taronga Zoo Sydney"
+        },
+        {
+          "time": "9:30am",
+          "part": "morning",
+          "text": "Zoo opens. Buy Giraffe Encounter tickets at the Top Plaza shop (from 9am) or in the Taronga app. One ticket covers up to 4 people."
+        },
+        {
+          "time": "10:40am",
+          "part": "morning",
+          "lead": true,
+          "text": "Feed the giraffes, with the harbour behind them. Then koalas and kangaroos at an easy pace."
+        },
+        {
+          "time": "12:30pm",
+          "part": "afternoon",
+          "text": "Drive to Bondi (about 35–45 min). Drop elders at Bondi Pavilion, then park."
+        },
+        {
+          "time": "1:15–2:30pm",
+          "part": "afternoon",
+          "text": "Bondi Beach walk, Pavilion and the Icebergs viewpoint.",
+          "map": "Bondi Pavilion"
+        },
+        {
+          "time": "2:30–3:30pm",
+          "part": "afternoon",
+          "text": "Late lunch near the beach."
+        },
+        {
+          "time": "3:45–5:00pm",
+          "part": "afternoon",
+          "text": "Relax and take last photos. Fitter guests can walk part of the coast path. Then drive home.",
+          "map": "Bondi Icebergs"
+        },
+        {
+          "time": "8:30–9:30pm",
+          "part": "evening",
+          "text": "Optional dinner near home."
+        }
+      ],
       "places": {
         "heading": "Best spots today",
         "items": [
@@ -658,21 +626,28 @@
               "Walk"
             ]
           }
-        ]
+        ],
+        "note": "Hot day forecast? You can swap the order: Bondi in the morning while it is cooler, Taronga after lunch. The giraffe feeding only runs at 10:40am, so you would miss it. The zoo is on a steep hill, and the Sky Safari cable car is closed while a new one is built, so elders should take it slowly."
       },
       "parking": {
         "heading": "Where to park",
         "options": [
           {
+            "name": "Taronga Zoo car park",
+            "walk": "Bradleys Head Road, at the top entrance.",
+            "price": "About A$18–24 per day per car. Check the machine",
+            "map": "Taronga Zoo car park Bradleys Head Road"
+          },
+          {
             "name": "Free streets in North Bondi",
             "walk": "Blair St, Hastings Pde, Wairoa Ave. About 5–10 min walk (500–800 m).",
-            "price": "Free, but mostly 2–4 hour limits. We stay about 6 hours, so cars must move once. Read every sign",
+            "price": "Free, but mostly 2–4 hour limits. Read every sign",
             "map": "Blair Street North Bondi"
           },
           {
             "name": "Queen Elizabeth Drive (beachfront meters)",
             "walk": "Right behind the beach. Accessible bays near the Pavilion.",
-            "price": "~A$12.40/hour per car (7am–7pm), pay by plate. A full day is about A$75 per car",
+            "price": "~A$12.40/hour per car (7am–7pm), pay by plate",
             "map": "Queen Elizabeth Drive Bondi Beach",
             "url": "https://www.bondipavilion.com.au/visit/plan_your_visit/transport_and_parking"
           },
@@ -682,15 +657,9 @@
             "price": "2 hours free (4 hours on weekdays for free Westfield members). Bus fares for 10+ people add up, so check the total",
             "map": "Westfield Bondi Junction",
             "url": "https://www.westfield.com.au/bondijunction/service/2Qrh4iPVrG6KwmMAuKysGI/parking"
-          },
-          {
-            "name": "Taronga Zoo car park",
-            "walk": "Bradleys Head Road, at the top entrance.",
-            "price": "About A$18–24 per day per car. Check the machine",
-            "map": "Taronga Zoo car park Bradleys Head Road"
           }
         ],
-        "note": "Easiest plan: drop elders at the Pavilion, then park on the free streets."
+        "note": "Easiest at Bondi: drop elders at the Pavilion, then park on the free streets."
       },
       "foodHeading": "Bondi lunch choices",
       "food": [
@@ -739,152 +708,7 @@
           ]
         }
       ],
-      "options": {
-        "heading": "Plan: pick one",
-        "items": [
-          {
-            "name": "Option A: Giraffes for two, Bondi for all",
-            "who": "Two of us go to Taronga Zoo for the morning. Everyone else does Bondi. We all meet for lunch. Uses both cars.",
-            "schedule": [
-              {
-                "time": "9:15am",
-                "who": "Zoo pair",
-                "part": "morning",
-                "text": "Drive to Taronga Zoo (about 15–20 min). Park on Bradleys Head Road.",
-                "map": "Taronga Zoo Sydney"
-              },
-              {
-                "time": "9:30am",
-                "who": "Zoo pair",
-                "part": "morning",
-                "text": "Zoo opens. Buy the Giraffe Encounter at the Top Plaza shop (from 9am) or in the Taronga app."
-              },
-              {
-                "time": "10:00am",
-                "who": "Family",
-                "part": "morning",
-                "text": "Leave home (about 35–45 min). Drop elders at Bondi Pavilion, then park."
-              },
-              {
-                "time": "10:40am",
-                "who": "Zoo pair",
-                "part": "morning",
-                "lead": true,
-                "text": "Feed the giraffes, with the harbour behind them. Then the koalas and kangaroos."
-              },
-              {
-                "time": "10:45am",
-                "who": "Family",
-                "part": "morning",
-                "text": "Bondi Beach walk, Pavilion and beach photos.",
-                "map": "Bondi Pavilion"
-              },
-              {
-                "time": "12:15pm",
-                "who": "Family",
-                "part": "afternoon",
-                "text": "Bondi Icebergs viewpoint. Relax at a café. Fitter guests can walk part of the coast path.",
-                "map": "Bondi Icebergs"
-              },
-              {
-                "time": "12:45pm",
-                "who": "Zoo pair",
-                "part": "afternoon",
-                "text": "Drive to Bondi (about 35–45 min)."
-              },
-              {
-                "time": "2:30–3:30pm",
-                "who": "Everyone",
-                "part": "afternoon",
-                "text": "Late lunch together near the beach."
-              },
-              {
-                "time": "3:45–5:00pm",
-                "who": "Everyone",
-                "part": "afternoon",
-                "text": "Relax, last photos, drive home."
-              },
-              {
-                "time": "8:30–9:30pm",
-                "who": "Everyone",
-                "part": "evening",
-                "text": "Optional dinner near home."
-              }
-            ]
-          },
-          {
-            "name": "Option B: Everyone to Taronga Zoo",
-            "who": "Whole family goes to the zoo instead of Bondi. Big harbour views, lots of Australian animals.",
-            "schedule": [
-              {
-                "time": "9:15am",
-                "text": "Leave home in both cars (about 15–20 min). Park on Bradleys Head Road.",
-                "map": "Taronga Zoo Sydney",
-                "part": "morning"
-              },
-              {
-                "time": "9:30am",
-                "text": "Zoo opens. Buy Giraffe Encounter tickets at the Top Plaza shop. One ticket covers up to 4 people.",
-                "part": "morning"
-              },
-              {
-                "time": "10:40am",
-                "text": "Giraffe feeding. Then koalas, kangaroos and the harbour lookouts at an easy pace.",
-                "part": "morning",
-                "lead": true
-              },
-              {
-                "time": "2:30–3:30pm",
-                "text": "Late lunch at the zoo cafés, or in Mosman. Check vegetarian options and ask about seafood.",
-                "part": "afternoon"
-              },
-              {
-                "time": "3:30–4:30pm",
-                "text": "Last animals, then drive home and rest.",
-                "part": "afternoon"
-              },
-              {
-                "time": "8:30–9:30pm",
-                "text": "Optional dinner near home.",
-                "part": "evening"
-              }
-            ],
-            "note": "The zoo is on a steep hill. The Sky Safari cable car is closed while a new one is built, so elders should keep to the top half and take breaks."
-          }
-        ]
-      },
-      "route": [
-        "home",
-        "taronga",
-        "bondi"
-      ],
-      "deck": "Surf, sea pools, and a giraffe at eye level.",
-      "budget": [
-        {
-          "label": "Lunch at Bondi",
-          "low": 25,
-          "high": 40,
-          "per": "person"
-        },
-        {
-          "label": "Zoo entry, if you go",
-          "low": 50,
-          "high": 55,
-          "per": "person"
-        },
-        {
-          "label": "Giraffe Encounter",
-          "low": 39.95,
-          "high": 39.95,
-          "per": "up to 4 people"
-        },
-        {
-          "label": "Parking",
-          "low": 0,
-          "high": 75,
-          "per": "car"
-        }
-      ]
+      "deck": "A giraffe at eye level, then surf and sea pools."
     },
     {
       "id": "tue",
@@ -893,7 +717,7 @@
       "dow": "Tue",
       "short": "Tue 1",
       "title": "On to Newcastle",
-      "summary": "Check out. Family takes the train from Central. Sujay & Laura drive with the luggage. Meet in Newcastle.",
+      "summary": "Check out. Sujay & Laura drive to Newcastle with the luggage. Everyone else takes the train. We meet in Newcastle.",
       "pace": "Travel day",
       "gallery": [
         "newcastle",
@@ -901,40 +725,29 @@
       ],
       "schedule": [
         {
-          "time": "9:00–9:30am",
-          "text": "Breakfast, pack, check out.",
-          "part": "morning"
-        },
-        {
-          "time": "9:30–10:45am",
-          "text": "Sujay & Laura drive the family to Sydney Central Station in a few trips (about 25 min each way). Or the family takes public transport (use the trip planner below).",
-          "map": "Central Station Sydney",
-          "part": "morning"
-        },
-        {
-          "time": "~11:00am",
-          "text": "Sujay & Laura drive to Newcastle with as much of the luggage as possible (about 2 hours).",
-          "part": "morning"
-        },
-        {
-          "time": "11:00am–12:00pm",
-          "text": "Family catches a CCN train to Newcastle (check times on the day).",
+          "time": "9:00–10:00am",
           "part": "morning",
-          "lead": true
+          "text": "Breakfast, pack and check out."
         },
         {
-          "time": "~1:45–2:45pm",
-          "text": "Family arrives at Newcastle Interchange. Sujay & Laura pick up.",
-          "map": "Newcastle Interchange",
-          "part": "afternoon"
+          "time": "10:00am",
+          "part": "morning",
+          "lead": true,
+          "text": "Sujay & Laura drive to Newcastle with the luggage (about 2 hours)."
+        },
+        {
+          "time": "10:00am",
+          "part": "morning",
+          "text": "Everyone else heads to Sydney Central and takes the train to Newcastle (about 2½–3 hours).",
+          "map": "Central Station Sydney"
         },
         {
           "time": "2:30–3:30pm",
-          "text": "Late lunch in Newcastle. Bring vegetarian snacks for the train.",
-          "part": "afternoon"
+          "part": "afternoon",
+          "text": "Meet in Newcastle. Late lunch together.",
+          "map": "Newcastle Interchange"
         }
       ],
-      "timesNote": "Tuesday times are a rough guide. They depend on how many trips the car needs.",
       "places": {
         "heading": "Stations",
         "items": [
@@ -979,24 +792,7 @@
         ]
       },
       "food": [],
-      "route": [
-        "home",
-        "central",
-        "newcastle"
-      ],
-      "deck": "North along the coast by rail.",
-      "budget": [
-        {
-          "label": "Lunch in Newcastle",
-          "low": 25,
-          "high": 40,
-          "per": "person"
-        },
-        {
-          "label": "Train fare (Opal)",
-          "per": "check"
-        }
-      ]
+      "deck": "North along the coast by rail."
     }
   ],
   "nearHome": {
@@ -1035,7 +831,7 @@
       },
       {
         "name": "Chat Thai, Chatswood",
-        "text": "Thai noodles and tofu curries. Check every sauce has no seafood.",
+        "text": "Thai noodles and tofu curries.",
         "url": "https://www.chatthai.com.au/",
         "map": "Chat Thai Chatswood",
         "photo": "padthai",
@@ -1047,7 +843,6 @@
   },
   "footer": "Prices and opening hours were checked in November 2026 and can change. Food photos show the kind of dish, not the restaurant's own food.",
   "hero": "harbour",
-  "foodNote": "Mostly vegetarian. No beef or seafood. SEAFOOD ALLERGY: tell every kitchen. Ask about fish sauce, oyster sauce, shrimp paste, anchovies, stocks and shared cooking surfaces.",
   "essentials": [
     {
       "label": "Lunch",
@@ -1069,79 +864,5 @@
       "label": "Pace",
       "value": "Moderate walking, with breaks"
     }
-  ],
-  "pins": {
-    "katoomba": {
-      "x": 28,
-      "y": 112,
-      "label": "Katoomba",
-      "dx": 0,
-      "dy": -10,
-      "anchor": "start"
-    },
-    "featherdale": {
-      "x": 112,
-      "y": 92,
-      "label": "Featherdale",
-      "dx": 0,
-      "dy": -10,
-      "anchor": "middle"
-    },
-    "dfo": {
-      "x": 166,
-      "y": 118,
-      "label": "DFO",
-      "dx": 0,
-      "dy": 20,
-      "anchor": "middle"
-    },
-    "home": {
-      "x": 204,
-      "y": 92,
-      "label": "Home",
-      "dx": 0,
-      "dy": -10,
-      "anchor": "middle"
-    },
-    "central": {
-      "x": 226,
-      "y": 138,
-      "label": "Central",
-      "dx": 0,
-      "dy": 20,
-      "anchor": "middle"
-    },
-    "quay": {
-      "x": 240,
-      "y": 112,
-      "label": "The Quay",
-      "dx": 0,
-      "dy": 20,
-      "anchor": "middle"
-    },
-    "taronga": {
-      "x": 262,
-      "y": 98,
-      "label": "Taronga",
-      "dx": 0,
-      "dy": 20,
-      "anchor": "middle"
-    },
-    "bondi": {
-      "x": 288,
-      "y": 144,
-      "label": "Bondi",
-      "dx": -8,
-      "dy": -8,
-      "anchor": "end"
-    },
-    "newcastle": {
-      "x": 286,
-      "y": 22,
-      "label": "Newcastle",
-      "dx": -8,
-      "dy": 4,
-      "anchor": "end"
-    }
-  }
+  ]
 }

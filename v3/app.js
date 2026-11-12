@@ -6,10 +6,6 @@
   const navInner = document.querySelector('.jump-inner');
   const links = [...document.querySelectorAll('.jump a')];
   const days = [...document.querySelectorAll('.day[data-date]')];
-  const kit = document.getElementById('kit');
-  const kitToggle = kit?.querySelector('.kit-toggle');
-  const kitDays = [...document.querySelectorAll('.kit-day')];
-  const wide = matchMedia('(min-width: 1240px)');
   let navH = 60, active = '', pending = false, userNavigated = false;
 
   /* scroll reveal: elements are only hidden because the .js class exists */
@@ -20,22 +16,6 @@
     }), { rootMargin: '0px 0px 10% 0px' });
     reveals.forEach(el => io.observe(el));
   } else reveals.forEach(el => el.classList.add('in'));
-
-  /* companion */
-  if (kit) {
-    kit.hidden = false;
-    const setExpanded = () => kitToggle.setAttribute('aria-expanded', String(wide.matches ? !kit.classList.contains('closed') : kit.classList.contains('open')));
-    kitToggle.addEventListener('click', () => { kit.classList.toggle(wide.matches ? 'closed' : 'open'); setExpanded(); });
-    document.addEventListener('keydown', e => { if (e.key === 'Escape' && kit.classList.contains('open')) { kit.classList.remove('open'); setExpanded(); kitToggle.focus(); } });
-    wide.addEventListener?.('change', setExpanded);
-    setExpanded();
-    // keep the hero clean: the companion appears once you're past it
-    const hero = document.querySelector('.hero');
-    if (hero && 'IntersectionObserver' in window) {
-      kit.classList.add('away');
-      new IntersectionObserver(([e]) => kit.classList.toggle('away', e.isIntersecting && e.intersectionRatio > .35), { threshold: [0, .35, 1] }).observe(hero);
-    }
-  }
 
   function measure() {
     navH = nav.getBoundingClientRect().height;
@@ -54,7 +34,6 @@
         if (r.left < box.left || r.right > box.right) navInner.scrollTo({ left: navInner.scrollLeft + r.left - box.left - (box.width - r.width) / 2 });
       } else a.removeAttribute('aria-current');
     });
-    kitDays.forEach(k => k.classList.toggle('current', k.dataset.day === active));
   }
   function schedule() { if (!pending) { pending = true; requestAnimationFrame(update); } }
 

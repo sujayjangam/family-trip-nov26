@@ -48,41 +48,10 @@ function places(pl, cover) {
 }
 
 /* ---------- food as a menu ---------- */
-const allergyMini = `<p class="allergy-mini"><span aria-hidden="true">⚠</span> Seafood allergy: tell every kitchen. Ask about fish sauce, oyster sauce, shrimp paste and stocks.</p>`;
-function menu(items, heading, withAllergy = true, intro = '') {
+function menu(items, heading, intro = '') {
   if (!items?.length) return '';
-  return `<section class="block menu-block"><h3 class="block-title">${esc(heading)}</h3>${intro ? `<p class="intro">${esc(intro)}</p>` : ''}${withAllergy ? allergyMini : ''}<ul class="menu">${items.map(it => `<li class="dish">${it.photo ? img(it.photo, { sizes: '88px', cls: 'ph thumb' }) : ''}<div class="dish-text"><div class="dish-head"><h4>${esc(it.name)}</h4>${it.price ? `<span class="price">${esc(it.price)}</span>` : ''}</div><p>${esc(it.text)}</p>${tags(it.tags)}<div class="row-actions">${it.url ? ext(it.url, 'Menu / website', 'btn btn-quiet') : ''}${it.map ? ext(mapURL(it.map), 'Map', 'btn btn-quiet') : ''}</div></div></li>`).join('')}</ul></section>`;
+  return `<section class="block menu-block"><h3 class="block-title">${esc(heading)}</h3>${intro ? `<p class="intro">${esc(intro)}</p>` : ''}<ul class="menu">${items.map(it => `<li class="dish">${it.photo ? img(it.photo, { sizes: '88px', cls: 'ph thumb' }) : ''}<div class="dish-text"><div class="dish-head"><h4>${esc(it.name)}</h4>${it.price ? `<span class="price">${esc(it.price)}</span>` : ''}</div><p>${esc(it.text)}</p>${tags(it.tags)}<div class="row-actions">${it.url ? ext(it.url, 'Menu / website', 'btn btn-quiet') : ''}${it.map ? ext(mapURL(it.map), 'Map', 'btn btn-quiet') : ''}</div></div></li>`).join('')}</ul></section>`;
 }
-
-/* ---------- companion: schematic map + budget ---------- */
-const pins = content.pins;
-function miniMap(d) {
-  const route = (d.route || []).filter(k => pins[k]);
-  const line = route.map(k => `${pins[k].x},${pins[k].y}`).join(' ');
-  const dots = Object.entries(pins).map(([k, p]) => {
-    const on = route.includes(k);
-    return `<g class="mp${on ? ' on' : ''}"><circle cx="${p.x}" cy="${p.y}" r="${on ? 5 : 3}"/>${on ? `<text x="${p.x + (p.dx ?? 8)}" y="${p.y + (p.dy ?? -8)}" text-anchor="${esc(p.anchor || 'start')}">${esc(p.label)}</text>` : ''}</g>`;
-  }).join('');
-  return `<svg class="minimap" viewBox="0 0 320 170" role="img" aria-label="${esc(`Rough map for ${d.short}: ${route.map(k => pins[k].label).join(' to ')}`)}">
-    <path class="sea" d="M300 0 C292 30 306 52 296 78 C290 96 300 112 296 128 C292 146 304 158 300 170 L320 170 L320 0Z"/>
-    <path class="harbour" d="M298 104 C280 100 270 106 258 102 C248 99 244 106 234 104 C224 102 214 96 204 96"/>
-    <path class="ridge" d="M14 128 l10 -14 l8 9 l9 -13 l11 18"/>
-    <polyline class="route" points="${line}"/>${dots}
-    <text class="scale" x="8" y="164">Not to scale</text>
-  </svg>`;
-}
-const money = n => `A$${Number.isInteger(n) ? n : n.toFixed(2)}`;
-function budget(d) {
-  const rows = (d.budget || []).map(b => {
-    const amt = b.per === 'check' ? 'Check' : b.from ? `from ${money(b.low)}` : b.low === b.high ? (b.low === 0 ? 'Free' : money(b.low)) : `${money(b.low)}–${money(b.high)}`;
-    return `<li><span>${esc(b.label)}</span><span class="amt">${esc(amt)}${b.per !== 'check' && !(b.low === 0 && b.high === 0) ? ` <small>/ ${esc(b.per)}</small>` : ''}</span></li>`;
-  }).join('');
-  const pp = (d.budget || []).filter(b => b.per === 'person' && !/if you go/i.test(b.label));
-  const lo = pp.reduce((s, b) => s + b.low, 0), hi = pp.reduce((s, b) => s + (b.high ?? b.low), 0), from = pp.some(b => b.from);
-  const total = pp.length ? `<p class="total"><span>Rough total per person</span><strong>${from ? 'from ' : ''}${money(lo)}${hi !== lo && !from ? `–${money(hi)}` : ''}</strong></p>` : '';
-  return `<ul class="budget">${rows}</ul>${total}`;
-}
-const kit = d => `<div class="kit-day" data-day="${esc(d.id)}"><p class="kit-when">${esc(d.dow)} ${esc(d.num)} · ${esc(d.title)}</p>${miniMap(d)}${budget(d)}</div>`;
 
 /* ---------- day ---------- */
 function day(d, i) {
@@ -112,7 +81,7 @@ function day(d, i) {
     <div class="standfirst"><p class="deck">${esc(d.deck)}</p><p>${esc(d.summary)}</p><span class="pace">${esc(d.pace)}</span></div>
     ${film}${plan}${opts}${places(d.places, cover)}
     ${tips ? `<section class="block"><h3 class="block-title">Tips</h3>${tips}</section>` : ''}
-    ${menu(d.food, d.foodHeading || 'Food')}${menu(d.treats, d.treatsHeading || 'Treats', false)}
+    ${menu(d.food, d.foodHeading || 'Food')}${menu(d.treats, d.treatsHeading || 'Treats')}
   </div>
 </article>`;
 }
@@ -140,7 +109,7 @@ const html = `<!doctype html>
 <body>
 <a class="skip" href="#main">Skip to the plan</a>
 <header class="hero">
-  <figure class="hero-ph"><img src="${safeURL(hero.src)}" alt="${esc(hero.alt)}" width="${hero.w}" height="${hero.h}" fetchpriority="high"></figure>
+  <figure class="hero-ph"><img src="${safeURL(hero.src)}" alt="${esc(hero.alt)}" width="${hero.w}" height="${hero.h}"${hero.pos ? ` style="object-position:${esc(hero.pos)}"` : ''} fetchpriority="high"></figure>
   <div class="hero-text">
     <p class="hero-dates">${esc(content.subtitle)}</p>
     <h1>${esc(content.title)}</h1>
@@ -153,18 +122,16 @@ const html = `<!doctype html>
   <section class="brief" aria-label="Before you go">
     <div class="home"><p class="home-label">Home base</p><p class="home-addr">${esc(content.home.address)}</p><p class="aside">${esc(content.home.note)}</p>${ext(content.home.map, 'Open in Maps')}</div>
     <dl class="essentials">${content.essentials.map(e => `<div><dt>${esc(e.label)}</dt><dd>${esc(e.value)}</dd></div>`).join('')}</dl>
-    <aside class="allergy" role="note"><p class="allergy-title"><span aria-hidden="true">⚠</span> Food & allergy</p><p>${esc(content.foodNote)}</p></aside>
   </section>
   ${days}
-  <section class="day near" id="near-home" aria-label="${esc(content.nearHome.heading)}"><div class="day-body">${menu(content.nearHome.items, content.nearHome.heading, true, content.nearHome.intro)}</div></section>
+  <section class="day near" id="near-home" aria-label="${esc(content.nearHome.heading)}"><div class="day-body">${menu(content.nearHome.items, content.nearHome.heading, content.nearHome.intro)}</div></section>
 </main>
-<aside class="kit" id="kit" aria-label="Map and budget for the day" hidden>
-  <button class="kit-toggle" type="button" aria-expanded="false" aria-controls="kit-panel"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2Z"/><path d="M9 4v14M15 6v14"/></svg><span>Map &amp; budget</span></button>
-  <div class="kit-panel" id="kit-panel">${content.days.map(kit).join('')}<p class="kit-note">Approximate. Prices change, and "Check" means we have no reliable number.</p></div>
-</aside>
 <footer class="foot"><p>${esc(content.footer)}</p><details><summary>Photo credits</summary><ul>${credits}</ul></details></footer>
 </body>
 </html>
 `;
 await writeFile(new URL('index.html', root), html);
-console.log(`Built v3 index.html: ${content.days.length} days, ${used.size} photos, ${missing.size} missing.`);
+// v3 is also the site's main page: same HTML, asset paths pointed into v3/
+const rootHtml = html.replace(/(src|href)="(?!https?:|#|mailto:|\/)([^"]+)"/g, '$1="v3/$2"');
+await writeFile(new URL('../index.html', root), rootHtml);
+console.log(`Built v3 index.html (+ ../index.html): ${content.days.length} days, ${used.size} photos, ${missing.size} missing.`);

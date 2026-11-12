@@ -46,12 +46,13 @@
   },
   "sisters": {
     "src": "img/sisters.jpg",
-    "w": 1000,
-    "h": 666,
-    "alt": "The Three Sisters from Echo Point",
-    "credit": "Unyxium",
-    "license": "CC0",
-    "source": "https://commons.wikimedia.org/wiki/File:Three_Sisters_Katoomba_IMG_5370.jpg"
+    "w": 1920,
+    "h": 1440,
+    "alt": "The Three Sisters at sunrise, with mist in the Jamison Valley",
+    "credit": "Abracadebra68",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Australia_new_Katoomba_the_three_sisters.jpg",
+    "pos": "30% 55%"
   },
   "bondi": {
     "src": "img/bondi.jpg",
@@ -399,11 +400,12 @@
   "harbour": {
     "src": "img/harbour.jpg",
     "w": 1280,
-    "h": 1920,
-    "alt": "Opera House and Harbour Bridge at sunset, seen from the sandstone rocks near Mrs Macquarie’s Point",
+    "h": 940,
+    "alt": "Opera House and Harbour Bridge at sunset, across the harbour",
     "credit": "Timothy M Roberts",
     "license": "CC BY-SA 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Opera_House_Harbour_Bridge_sunset_(21000910186).jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Opera_House_Harbour_Bridge_sunset_(21000910186).jpg",
+    "pos": "52% 50%"
   },
   "dusk": {
     "src": "img/dusk.jpg",
