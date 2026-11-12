@@ -1,0 +1,83 @@
+{
+  "opera": {
+    "src": "img/opera.jpg",
+    "w": 1200,
+    "h": 490,
+    "alt": "Sydney Opera House and Harbour Bridge",
+    "credit": "J woodward",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_and_Harbour_Bridge.jpg"
+  },
+  "bridge": {
+    "src": "img/bridge.jpg",
+    "w": 1200,
+    "h": 900,
+    "alt": "Harbour Bridge seen from the Opera House",
+    "credit": "Vakrieger",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sydney_Harbour_Bridge_View_from_Opera_House.jpg"
+  },
+  "ayrfield": {
+    "src": "img/ayrfield.jpg",
+    "w": 1200,
+    "h": 864,
+    "alt": "SS Ayrfield, the \"floating forest\" shipwreck",
+    "credit": "Yucalyptus",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:SS_Ayrfield.jpg"
+  },
+  "brickpit": {
+    "src": "img/brickpit.jpg",
+    "w": 1200,
+    "h": 1002,
+    "alt": "Brickpit Ring Walk, Sydney Olympic Park",
+    "credit": "aussiegall from sydney, Australia",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Brickpit_Ring_Walk_Bicentenial_Park_(401739071).jpg"
+  },
+  "skyway": {
+    "src": "img/skyway.jpg",
+    "w": 1200,
+    "h": 658,
+    "alt": "Scenic Skyway over the Jamison Valley",
+    "credit": "Bjørn Christian Tørrissen",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Scenic_World_Skyway.jpg"
+  },
+  "sisters": {
+    "src": "img/sisters.jpg",
+    "w": 1200,
+    "h": 800,
+    "alt": "The Three Sisters from Echo Point",
+    "credit": "Unyxium",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Three_Sisters_Katoomba_IMG_5370.jpg"
+  },
+  "bondi": {
+    "src": "img/bondi.jpg",
+    "w": 1200,
+    "h": 900,
+    "alt": "Bondi Beach",
+    "credit": "Ttabett",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bondi_Beach_Sydney.jpg"
+  },
+  "icebergs": {
+    "src": "img/icebergs.jpg",
+    "w": 1200,
+    "h": 800,
+    "alt": "Bondi Icebergs ocean pool",
+    "credit": "David Di Veroli daviddiveroli",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bondi_Beach_pool_(Unsplash).jpg"
+  },
+  "newcastle": {
+    "src": "img/newcastle.jpg",
+    "w": 1200,
+    "h": 900,
+    "alt": "Newcastle Interchange station",
+    "credit": "UnitedB1",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Newcastle_Interchange_2022.jpg"
+  }
+}

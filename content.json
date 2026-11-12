@@ -1,0 +1,223 @@
+{
+  "title": "Sydney Family Trip",
+  "subtitle": "27 November – 1 December 2026",
+  "tagline": "Five easy days. 10+ family members. Based in Glebe.",
+  "hero": "opera",
+  "home": {
+    "label": "Where we stay",
+    "address": "14 Burton Street, Glebe NSW 2037",
+    "map": "https://www.google.com/maps/search/?api=1&query=14+Burton+Street+Glebe+NSW+2037"
+  },
+  "essentials": [
+    { "icon": "🍽️", "label": "Lunch", "value": "2:30–3:30pm" },
+    { "icon": "🌙", "label": "Dinner", "value": "8:30–9:30pm" },
+    { "icon": "💵", "label": "Food budget", "value": "A$25–40 per person" },
+    { "icon": "🚗", "label": "Cars", "value": "2 cars (27–30 Nov)" },
+    { "icon": "🚶", "label": "Walking", "value": "Moderate, with breaks" }
+  ],
+  "foodNote": "Mostly vegetarian. No beef or seafood. SEAFOOD ALLERGY: tell every kitchen. Ask about fish sauce, oyster sauce, shrimp paste, anchovies, stocks and shared cooking surfaces.",
+  "days": [
+    {
+      "id": "fri",
+      "date": "2026-11-27",
+      "short": "Fri 27",
+      "title": "Harbour & First Views",
+      "summary": "Arrival day. Rest first, then free famous views at sunset (around 7:45pm).",
+      "pace": "Easy",
+      "photos": ["opera", "bridge"],
+      "schedule": [
+        { "time": "7:40am", "text": "Land at Sydney Airport. Immigration, bags, pick up cars." },
+        { "time": "Late morning", "text": "Drive to Glebe. Drop bags / check in if allowed." },
+        { "time": "2:30–3:30pm", "text": "Late lunch near Glebe, then rest." },
+        { "time": "5:00–7:45pm", "text": "Circular Quay → Opera House → Harbour Bridge views → The Rocks.", "map": "Circular Quay Sydney" },
+        { "time": "8:30–9:30pm", "text": "Dinner near the harbour, then home." }
+      ],
+      "highlights": {
+        "heading": "Best photo spots",
+        "items": [
+          { "name": "Opera House forecourt", "text": "Big white sails up close.", "map": "Sydney Opera House" },
+          { "name": "Circular Quay east walk", "text": "Opera House with harbour ferries.", "map": "Circular Quay East Sydney" },
+          { "name": "Hickson Road Reserve, The Rocks", "text": "Harbour Bridge framing. Stay for twilight if everyone feels up to it.", "map": "Hickson Road Reserve The Rocks" }
+        ]
+      },
+      "practical": {
+        "heading": "Parking & tickets",
+        "text": "Sydney Opera House Car Park, 2A Macquarie St (2.2m height limit). Prepaid evening rate from about A$40.75 per car. Looking around outside is FREE. Guided tour (~A$50) not advised after a flight.",
+        "links": [
+          { "label": "Opera House parking", "url": "https://www.wilsonparking.com.au/parking-locations/new-south-wales/sydney-cbd/sydney-opera-house-car-park-2A-macquarie-st-sydney/" }
+        ]
+      },
+      "foodHeading": "Dinner choices",
+      "food": [
+        { "name": "Pancakes on the Rocks", "price": "A$20–38", "text": "Family-friendly. Savoury vegetarian dishes and pancakes.", "url": "https://pancakesontherocks.com.au/", "map": "Pancakes on the Rocks The Rocks Sydney" },
+        { "name": "Chat Thai", "price": "A$22–38", "text": "Thai stir-fries and tofu curries. Check every sauce has no seafood.", "url": "https://www.chatthai.com.au/", "map": "Chat Thai Circular Quay" },
+        { "name": "Sahtein, The Rocks", "price": "~A$30–50", "text": "Falafel, hummus, halloumi and mezze.", "url": "https://www.google.com/maps/search/?api=1&query=Sahtein+The+Rocks+Sydney", "map": "Sahtein The Rocks Sydney" },
+        { "name": "The Spice Room", "price": "A$70–80", "text": "Paneer, dal, naan. Over budget: set banquet for groups of 6+.", "url": "https://thespiceroom.com.au/contact-us/", "map": "The Spice Room Sydney" }
+      ]
+    },
+    {
+      "id": "sat",
+      "date": "2026-11-28",
+      "short": "Sat 28",
+      "title": "Outlet Shopping & Hidden Gems",
+      "summary": "DFO shopping, an optional short sight nearby, then Sydney-famous desserts.",
+      "pace": "Easy",
+      "photos": ["ayrfield", "brickpit"],
+      "schedule": [
+        { "time": "10:00am", "text": "Drive from Glebe in both cars." },
+        { "time": "10:30am–2:00pm", "text": "DFO Homebush outlet shopping. Pick a meeting point first!", "map": "DFO Homebush" },
+        { "time": "2:30–3:30pm", "text": "Late lunch at DFO (food court is easiest for mixed diets)." },
+        { "time": "3:45–4:45pm", "text": "Optional: pick ONE sight below. Or go home and rest." },
+        { "time": "8:30–9:30pm", "text": "Dinner in Glebe or Newtown, then dessert if you like." }
+      ],
+      "highlights": {
+        "heading": "Near DFO: choose one (all FREE)",
+        "items": [
+          { "name": "Brickpit Ring Walk", "text": "Round walkway high above an old quarry. 20–30 min. Great photos.", "map": "Brickpit Ring Walk Sydney Olympic Park" },
+          { "name": "SS Ayrfield shipwreck", "text": "Rusty ship with trees growing out of it. 20–40 min. View from Parklands Circuit.", "map": "SS Ayrfield Homebush Bay" },
+          { "name": "Bicentennial Park", "text": "Wetlands, mangrove boardwalk, tower views. 30–60 min. Easiest stroll.", "map": "Bicentennial Park Sydney Olympic Park" }
+        ]
+      },
+      "practical": {
+        "heading": "Parking",
+        "text": "DFO: first 2 hours FREE, then about A$16 per car for 3½–4h. Shops normally open 10am–6pm Saturday. Olympic Park: register each car plate for 2 hours FREE, then A$5/hour.",
+        "links": [
+          { "label": "DFO parking", "url": "https://www.homebush.dfo.com.au/directions/parking-at-homebush" },
+          { "label": "Olympic Park parking", "url": "https://www.sydneyolympicpark.nsw.gov.au/parking" },
+          { "label": "Brickpit Ring Walk", "url": "https://www.sydneyolympicpark.nsw.gov.au/parks-and-playgrounds/brickpit-ring-walk" }
+        ]
+      },
+      "foodHeading": "Dinner choices (vegetarian-friendly)",
+      "food": [
+        { "name": "Soul Burger, Glebe", "price": "~A$18–30", "text": "Plant-based burgers.", "url": "https://www.soulburger.com.au/glebe", "map": "Soul Burger Glebe" },
+        { "name": "Golden Lotus Vegan, Newtown", "price": "~A$20–35", "text": "Vietnamese vegan noodles and rice.", "url": "https://www.goldenlotus-vegan.com/", "map": "Golden Lotus Vegan Newtown" },
+        { "name": "Gigi Pizzeria, Newtown", "price": "~A$25–40", "text": "Plant-based wood-fired pizza.", "url": "https://www.broadsheet.com.au/sydney/restaurants/gigi-pizzeria", "map": "Gigi Pizzeria Newtown" },
+        { "name": "don Fred, Newtown", "price": "~A$20–35", "text": "Vegan Italian focaccia. Check 9pm closing.", "url": "https://www.donfred.com.au/", "map": "don Fred Newtown" }
+      ],
+      "treatsHeading": "Sydney-famous desserts",
+      "treats": [
+        { "name": "Yo-Chi", "text": "Self-serve frozen yoghurt, pay by weight.", "url": "https://yochi.com.au/yochi-venues/", "map": "Yo-Chi Newtown" },
+        { "name": "Black Star Pastry", "text": "Famous strawberry-watermelon cake (~A$13). Contains almonds. Newtown, open till 10pm Sat.", "url": "https://blackstarpastry.com/pages/locations", "map": "Black Star Pastry Newtown" },
+        { "name": "Gelato Messina", "text": "Creative gelato. 258 King St, Newtown.", "url": "https://gelatomessina.com/pages/stores", "map": "Gelato Messina Newtown" },
+        { "name": "Hakiki", "text": "Turkish ice cream and baklava. Enmore Rd, Newtown.", "url": "https://www.google.com/maps/search/?api=1&query=Hakiki+Newtown", "map": "Hakiki Newtown" }
+      ]
+    },
+    {
+      "id": "sun",
+      "date": "2026-11-29",
+      "short": "Sun 29",
+      "title": "Blue Mountains",
+      "summary": "The big day: cable cars, rainforest and the Three Sisters.",
+      "pace": "Full day",
+      "photos": ["skyway", "sisters"],
+      "schedule": [
+        { "time": "10:00am", "text": "Leave Glebe in both cars. About 2–2½ hours drive." },
+        { "time": "12:15–2:15pm", "text": "Scenic World: Skyway, Cableway, short rainforest boardwalk.", "map": "Scenic World Katoomba" },
+        { "time": "2:30–3:30pm", "text": "Late lunch in Katoomba (book ahead for 10+)." },
+        { "time": "3:45–4:30pm", "text": "Echo Point: Three Sisters photos.", "map": "Echo Point Lookout Katoomba" },
+        { "time": "4:30–7:00pm", "text": "Drive back to Glebe. Dinner only if wanted." }
+      ],
+      "highlights": {
+        "heading": "Don't miss",
+        "items": [
+          { "name": "Scenic Skyway", "text": "Glass-floor cable car over the valley.", "map": "Scenic World Katoomba" },
+          { "name": "Scenic Cableway", "text": "Ride down through the treetops.", "map": "Scenic World Katoomba" },
+          { "name": "Echo Point", "text": "The classic Three Sisters view.", "map": "Echo Point Lookout Katoomba" }
+        ],
+        "note": "The Scenic Railway is very steep. Skip it unless each person wants to go."
+      },
+      "practical": {
+        "heading": "Parking & tickets",
+        "text": "Book Scenic World tickets ahead for a ~12:30pm session (from A$64 per adult; Sunday may cost more). Scenic World, 1 Violet St: FREE parking (2m height limit). Echo Point: paid parking, check the machine.",
+        "links": [
+          { "label": "Book Scenic World", "url": "https://www.scenicworld.com.au/tickets/day-passes" },
+          { "label": "Getting there & parking", "url": "https://www.scenicworld.com.au/getting-here" }
+        ]
+      },
+      "foodHeading": "Katoomba lunch choices",
+      "food": [
+        { "name": "Station Bar", "price": "A$23–30", "text": "BEST FIT. Wood-fired veg pizzas. Open 7 days.", "url": "https://stationbar.com.au/pizza-menu/", "map": "Station Bar Katoomba" },
+        { "name": "Basil Nut", "price": "~A$20–40", "text": "Asian fusion, vegan options. Sunday lunch until 3:30pm. Call ahead for 10+.", "url": "https://basilnut.com.au/contact/", "map": "Basil Nut Katoomba" },
+        { "name": "Pho Moi", "price": "~A$18–30", "text": "Vietnamese noodles. Check the broth is vegetarian and Sunday hours.", "url": "https://www.google.com/maps/search/?api=1&query=Pho+Moi+Katoomba", "map": "Pho Moi Katoomba" },
+        { "name": "8Things", "price": "~A$18–30", "text": "Global street food. Tight: closes about 3pm Sunday.", "url": "https://www.8things.com.au/", "map": "8Things Katoomba" }
+      ]
+    },
+    {
+      "id": "mon",
+      "date": "2026-11-30",
+      "short": "Mon 30",
+      "title": "Bondi Beach & Ocean Views",
+      "summary": "A slow beach day with ocean views and photos.",
+      "pace": "Easy",
+      "photos": ["bondi", "icebergs"],
+      "schedule": [
+        { "time": "10:00am", "text": "Leave Glebe. Allow extra time to park." },
+        { "time": "10:45am–12:15pm", "text": "Bondi Beach walk, Pavilion and beach photos.", "map": "Bondi Pavilion" },
+        { "time": "12:15–2:15pm", "text": "Bondi Icebergs viewpoint. Relax at a café. Fitter guests can walk part of the coast path.", "map": "Bondi Icebergs" },
+        { "time": "2:30–3:30pm", "text": "Late lunch near the beach." },
+        { "time": "3:45–5:00pm", "text": "Relax, last photos, back to Glebe." },
+        { "time": "8:30–9:30pm", "text": "Optional dinner near home." }
+      ],
+      "highlights": {
+        "heading": "Best photo spots",
+        "items": [
+          { "name": "Bondi Pavilion", "text": "The classic beach postcard.", "map": "Bondi Pavilion" },
+          { "name": "Icebergs viewpoint", "text": "Famous ocean pool with waves crashing in.", "map": "Bondi Icebergs" },
+          { "name": "Bondi to Tamarama path (optional)", "text": "Cliffs and surf. Elders can stay at the cafés.", "map": "Bondi to Coogee Coastal Walk" }
+        ]
+      },
+      "practical": {
+        "heading": "Parking",
+        "text": "Paid street bays on Queen Elizabeth Drive / Park Drive North, off Campbell Parade (7am–7pm). Check the price on the day. Accessible bays and ramps near the Pavilion. Beach and views are FREE.",
+        "links": [
+          { "label": "Bondi parking info", "url": "https://www.bondipavilion.com.au/visit/plan_your_visit/transport_and_parking" }
+        ]
+      },
+      "foodHeading": "Bondi lunch choices",
+      "food": [
+        { "name": "Bondi Trattoria", "price": "~A$27–40", "text": "TOP PICK. Monday risotto special A$27, veg pasta and pizza. Book for the group.", "url": "https://bonditrattoria.com.au/bookings", "map": "Bondi Trattoria" },
+        { "name": "Sabbaba", "price": "~A$18–30", "text": "Falafel pita, hummus, halloumi, salads.", "url": "https://www.google.com/maps/search/?api=1&query=Sabbaba+Bondi", "map": "Sabbaba Bondi" },
+        { "name": "Bondi Pizza Gallery", "price": "~A$20–35", "text": "Vegetarian pizzas. Check hours and seats for 10+.", "url": "https://www.google.com/maps/search/?api=1&query=Bondi+Pizza+Gallery", "map": "Bondi Pizza Gallery" },
+        { "name": "Funky Pies", "price": "~A$15–25", "text": "Vegan pies. Takeaway backup, not for a sit-down group.", "url": "https://www.google.com/maps/search/?api=1&query=Funky+Pies+Bondi", "map": "Funky Pies Bondi" }
+      ]
+    },
+    {
+      "id": "tue",
+      "date": "2026-12-01",
+      "short": "Tue 1",
+      "title": "On to Newcastle",
+      "summary": "Check out. Sujay & Laura drive. Family takes the train. Meet in Newcastle.",
+      "pace": "Travel day",
+      "photos": ["newcastle"],
+      "schedule": [
+        { "time": "9:00–10:00am", "text": "Breakfast, pack, check out. Agree who carries which bags." },
+        { "time": "10:00–10:30am", "text": "Sujay & Laura drive to Newcastle (about 2½–3 hours)." },
+        { "time": "10:15–11:00am", "text": "Family goes to Sydney Central Station with bags.", "map": "Central Station Sydney" },
+        { "time": "11:00am–12:30pm", "text": "Take a CCN train to Newcastle (check times on the day)." },
+        { "time": "~2:00–3:30pm", "text": "Family arrives at Newcastle Interchange. Pickup as arranged.", "map": "Newcastle Interchange" },
+        { "time": "2:30–3:30pm", "text": "Late lunch when you can. Bring vegetarian snacks for the train." }
+      ],
+      "train": {
+        "heading": "Train steps for the family",
+        "steps": [
+          "Go to Sydney Central Station. Arrive 20–30 min before the train.",
+          "Find the Central Coast & Newcastle Line (CCN) intercity train.",
+          "Tap on with an Opal card or contactless bank card. No booking needed.",
+          "Check the train sign says Newcastle (some trains stop earlier, at Gosford or Wyong). Ride about 2½–3 hours to Newcastle Interchange.",
+          "Tap off when you leave. Toilets, lifts and a taxi rank are there."
+        ],
+        "links": [
+          { "label": "CCN timetable", "url": "https://transportnsw.info/routes/details/intercity-trains/ccn/02CCN" },
+          { "label": "Live trip planner", "url": "https://transportnsw.info/trip-planner" }
+        ]
+      },
+      "practical": {
+        "heading": "Car and bags",
+        "text": "Sujay & Laura take the car and the bulky bags. Family: choose a train carriage with room for luggage."
+      },
+      "food": []
+    }
+  ],
+  "photos": {},
+  "footer": "Prices and opening hours were checked in November 2026 and can change. Photos from Wikimedia Commons (credits below)."
+}

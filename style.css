@@ -1,0 +1,80 @@
+:root { color-scheme: light; --ink: #203337; --muted: #4f6266; --paper: #faf8f3; --teal: #143d46; --line: #cdd7d6; --nav-height: 90px; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 18px/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; overflow-wrap: anywhere; }
+h1, h2, h3, h4 { line-height: 1.15; margin: 0 0 20px; }
+h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; }
+h1 { font-size: clamp(48px, 9vw, 88px); max-width: 700px; }
+h2 { font-size: clamp(34px, 6vw, 56px); }
+h3 { font-size: 32px; }
+h4 { font-size: 23px; }
+p { margin: 0 0 20px; }
+a { color: var(--teal); text-underline-offset: 4px; }
+a:focus-visible { outline: 3px solid #ad4600; outline-offset: 4px; }
+main { scroll-margin-top: var(--nav-height); }
+main:focus-visible { outline: 3px solid #ad4600; outline-offset: -3px; }
+[hidden] { display: none !important; }
+.wrap { width: min(100% - 32px, 720px); margin-inline: auto; }
+.button, .day-pill { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 10px 18px; border: 2px solid var(--teal); border-radius: 10px; color: white; background: var(--teal); font-weight: 700; text-decoration: none; text-align: center; line-height: 1.4; }
+.button:hover { background: #25535e; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; }
+.actions:empty { display: none; }
+.skip-link { position: absolute; top: 12px; left: 16px; z-index: 10; transform: translateY(-180%); }
+.skip-link:focus { transform: none; }
+.photo-banner { position: relative; isolation: isolate; min-height: 360px; background: #244e59; display: flex; align-items: end; overflow: hidden; }
+.photo-banner img { position: absolute; inset: 0; z-index: -2; width: 100%; height: 100%; object-fit: cover; color: white; }
+.photo-banner::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgb(0 0 0 / .20), rgb(0 0 0 / .78)); }
+.hero { min-height: 560px; min-height: min(760px, 85svh); padding-top: 100px; }
+.hero img { object-position: 80% center; }
+.overlay { padding-block: 72px 40px; color: #fff; text-shadow: 0 2px 8px #000; }
+.overlay p:last-child { margin-bottom: 0; }
+.eyebrow { font-size: 20px; font-weight: 750; letter-spacing: .04em; }
+.day-nav { position: sticky; top: 0; z-index: 5; background: #fff; border-bottom: 1px solid var(--line); box-shadow: 0 3px 12px #143d4610; }
+.nav-inner { display: flex; gap: 10px; max-width: 752px; margin-inline: auto; padding: 12px 16px; overflow-x: auto; scrollbar-width: none; }
+.nav-inner::-webkit-scrollbar { display: none; }
+.day-pill { border-radius: 999px; flex: 0 0 auto; background: #fff; color: var(--teal); gap: 8px; }
+.day-pill:hover, .day-pill[aria-current] { color: white; background: var(--teal); }
+.today-badge { display: inline-block; font: 700 14px/1.4 system-ui, sans-serif; padding: 4px 8px; color: #203337; background: #ffe19a; border-radius: 6px; text-shadow: none; vertical-align: middle; }
+.intro { padding-block: 40px 56px; }
+.card { padding: 24px; border: 1px solid var(--line); border-radius: 16px; background: white; }
+.home { border-top: 5px solid var(--teal); }
+.home h2, .essentials-section h2, footer h2 { font-size: 32px; }
+.essentials-section { margin-block: 40px; }
+.essentials { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 0; }
+.essentials > div { padding: 16px; background: #eaf0ed; border-radius: 12px; }
+.essentials dt { color: var(--muted); font-weight: 650; }
+.essentials dd { margin: 6px 0 0; font-weight: 750; }
+.icon { display: block; font-size: 28px; margin-bottom: 6px; }
+.warning { padding: 24px; background: #fff0ce; border: 2px solid #a44418; border-left-width: 6px; border-radius: 12px; color: #652608; }
+.warning strong { display: block; font-size: 21px; }
+.warning p { margin: 10px 0 0; }
+.warning.compact { padding: 16px; margin-bottom: 20px; }
+.day { scroll-margin-top: var(--nav-height); }
+.day-summary { padding-block: 28px; }
+.day-summary p { font-size: 21px; }
+.chip { display: inline-block; padding: 6px 14px; border-radius: 999px; background: #e2ece7; color: #234538; font-weight: 700; }
+.price { margin: 0 0 16px; }
+.day-body { padding-bottom: 36px; }
+.block { margin-block: 28px 48px; }
+.cards { display: grid; gap: 16px; }
+.timeline { list-style: none; padding: 0; margin: 0; }
+.timeline li { position: relative; display: grid; gap: 8px; margin-left: 7px; border-left: 2px solid var(--line); padding: 0 0 32px 22px; }
+.timeline li::before { content: ""; position: absolute; left: -7px; top: 8px; width: 12px; height: 12px; border-radius: 50%; background: var(--teal); }
+.timeline li:last-child { padding-bottom: 0; }
+.timeline p { margin-bottom: 12px; }
+.time { color: var(--teal); }
+.callout { margin-top: 20px; padding: 20px; border-left: 5px solid var(--teal); background: #eaf0ed; }
+figure { margin: 40px 0; }
+figure img { display: block; width: 100%; height: auto; aspect-ratio: 14/9; object-fit: cover; border-radius: 16px; background: #dce6e4; }
+figcaption { padding-top: 10px; color: var(--muted); }
+.practical, .train { padding: 24px; background: #eaf0ed; border-radius: 16px; }
+.steps { counter-reset: step; list-style: none; padding: 0; }
+.steps li { counter-increment: step; position: relative; padding-left: 54px; margin-bottom: 24px; min-height: 40px; }
+.steps li::before { content: counter(step); position: absolute; top: 0; left: 0; display: grid; place-items: center; width: 38px; height: 38px; border-radius: 50%; background: var(--teal); color: white; font-weight: 800; }
+footer { padding-block: 40px 56px; border-top: 1px solid var(--line); }
+footer h2 { font-size: 22px; }
+.credits { list-style: none; padding-left: 0; margin-bottom: 32px; font-size: 15px; color: var(--muted); }
+.credits li { padding-block: 4px; }
+.credits a { color: inherit; display: inline-block; padding-block: 8px; }
+@media (min-width: 520px) { .timeline li { grid-template-columns: 155px minmax(0, 1fr); gap: 20px; } .photo-banner { min-height: 460px; } .hero { min-height: 650px; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; } }
