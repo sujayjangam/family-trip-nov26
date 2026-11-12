@@ -367,5 +367,32 @@
     "credit": "avlxyz",
     "license": "CC BY-SA 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Pad_Thai_tofu_and_veg_-_Mint_Thai_AUD9.jpg"
+  },
+  "koala": {
+    "src": "img/koala.jpg",
+    "w": 1280,
+    "h": 853,
+    "alt": "A koala at Featherdale Wildlife Park",
+    "credit": "Sadopaul",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:A_koala_at_Featherdale_Wildlife_Park_2025_(11).jpg"
+  },
+  "giraffe": {
+    "src": "img/giraffe.jpg",
+    "w": 1280,
+    "h": 878,
+    "alt": "Giraffe at Taronga Zoo, Sydney",
+    "credit": "Sardaka",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Taronga_Zoo_giraffe_001.jpg"
+  },
+  "roo": {
+    "src": "img/roo.jpg",
+    "w": 1280,
+    "h": 853,
+    "alt": "Kangaroo looking up for food",
+    "credit": "Duolanga",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kangaroo_looking_up_at_the_camera.jpg"
   }
 }

@@ -151,21 +151,29 @@
       "num": "28",
       "dow": "Sat",
       "short": "Sat 28",
-      "title": "Outlet shopping & hidden gems",
-      "summary": "DFO shopping, an optional short sight nearby, then Sydney-famous desserts.",
+      "title": "Kangaroos, koalas & outlet shopping",
+      "summary": "Hand-feed kangaroos at Featherdale in the morning. DFO shopping in the afternoon, then Sydney-famous desserts.",
       "pace": "Easy",
       "gallery": [
-        "ayrfield",
-        "brickpit",
-        "bicentennial"
+        "roo",
+        "koala"
       ],
       "schedule": [
         {
-          "time": "10:00am",
-          "text": "Drive from home in both cars (about 20–25 min)."
+          "time": "8:45am",
+          "text": "Drive from home in both cars to Featherdale, Doonside (about 35–45 min)."
         },
         {
-          "time": "10:30am–2:00pm",
+          "time": "9:30am–12:30pm",
+          "text": "Featherdale Wildlife Park. Hand-feed kangaroos and wallabies, pat a koala. Flat paths, café on site.",
+          "map": "Featherdale Sydney Wildlife Park"
+        },
+        {
+          "time": "12:30–1:00pm",
+          "text": "Drive to DFO Homebush (about 20–25 min)."
+        },
+        {
+          "time": "1:00–5:00pm",
           "text": "DFO Homebush outlet shopping. Pick a meeting point first!",
           "map": "DFO Homebush"
         },
@@ -174,56 +182,48 @@
           "text": "Late lunch at DFO (the food court is easiest for mixed diets)."
         },
         {
-          "time": "3:45–4:45pm",
-          "text": "Optional: pick ONE sight below. Or go home and rest."
-        },
-        {
           "time": "8:30–9:30pm",
           "text": "Dinner in Glebe/Newtown, or near home, then dessert if you like."
         }
       ],
       "places": {
-        "heading": "Near DFO: choose one (all free)",
+        "heading": "At Featherdale",
         "items": [
           {
-            "name": "Brickpit Ring Walk",
-            "text": "Round walkway high above an old quarry. 20–30 min.",
-            "map": "Brickpit Ring Walk Sydney Olympic Park",
-            "photo": "brickpit"
+            "name": "Feed the kangaroos",
+            "text": "Walk-through areas with kangaroos and wallabies that eat from your hand. Animal feed is sold at the park.",
+            "map": "Featherdale Sydney Wildlife Park",
+            "photo": "roo"
           },
           {
-            "name": "SS Ayrfield shipwreck",
-            "text": "Rusty ship with trees growing out of it. 20–40 min. View from Parklands Circuit.",
-            "map": "SS Ayrfield Homebush Bay",
-            "photo": "ayrfield"
-          },
-          {
-            "name": "Bicentennial Park",
-            "text": "Wetlands, mangrove boardwalk, tower views. 30–60 min. Easiest stroll.",
-            "map": "Bicentennial Park Sydney Olympic Park",
-            "photo": "bicentennial"
+            "name": "Koala pats",
+            "text": "Included with entry. Stand next to a koala and pat it. NSW law does not allow holding koalas.",
+            "url": "https://www.featherdale.com.au/visit",
+            "map": "Featherdale Sydney Wildlife Park",
+            "photo": "koala"
           }
-        ]
+        ],
+        "note": "Open 8am–5pm every day, last entry 4pm. Adult tickets are about A$40–49. Check the price and buy online before you go."
       },
       "parking": {
         "heading": "Parking",
         "options": [
           {
-            "name": "DFO Homebush car park",
-            "walk": "At the shops.",
-            "price": "First 2 hours free. About 5 hours (shopping + lunch) ≈ A$26 per car",
-            "map": "DFO Homebush",
-            "url": "https://www.homebush.dfo.com.au/directions/parking-at-homebush"
+            "name": "Featherdale car park",
+            "walk": "On site, 217 Kildare Road, Doonside.",
+            "price": "Check the signs on arrival",
+            "map": "Featherdale Sydney Wildlife Park",
+            "url": "https://www.featherdale.com.au/visit"
           },
           {
-            "name": "Sydney Olympic Park parklands",
-            "walk": "Park next to the sight you pick.",
-            "price": "Register your plate for 2 hours free, then A$5/hour",
-            "map": "Brickpit Ring Walk car park Marjorie Jackson Parkway",
-            "url": "https://www.sydneyolympicpark.nsw.gov.au/parking"
+            "name": "DFO Homebush car park",
+            "walk": "At the shops.",
+            "price": "First 2 hours free. About 4 hours (shopping + lunch): check the rate at the machine",
+            "map": "DFO Homebush",
+            "url": "https://www.homebush.dfo.com.au/directions/parking-at-homebush"
           }
         ],
-        "note": "No cheaper parking found within 1 km of DFO. Money tip: the first 2 hours at DFO are free, so a car that leaves early pays nothing."
+        "note": "Money tip: the first 2 hours at DFO are free, so a car that leaves early pays nothing."
       },
       "foodHeading": "Dinner in Glebe & Newtown (about 25 min from home)",
       "food": [
@@ -422,46 +422,27 @@
       "num": "30",
       "dow": "Mon",
       "short": "Mon 30",
-      "title": "Bondi Beach & ocean views",
-      "summary": "A slow beach day with ocean views and photos.",
+      "title": "Bondi Beach & giraffes",
+      "summary": "Two ways to do today. Pick one the night before.",
       "pace": "Easy",
       "gallery": [
+        "giraffe",
         "bondi",
         "icebergsday",
         "pavilion",
         "coastwalk"
       ],
-      "schedule": [
-        {
-          "time": "10:00am",
-          "text": "Leave home (about 35–45 min). Drop elders at Bondi Pavilion, then park."
-        },
-        {
-          "time": "10:45am–12:15pm",
-          "text": "Bondi Beach walk, Pavilion and beach photos.",
-          "map": "Bondi Pavilion"
-        },
-        {
-          "time": "12:15–2:15pm",
-          "text": "Bondi Icebergs viewpoint. Relax at a café. Fitter guests can walk part of the coast path.",
-          "map": "Bondi Icebergs"
-        },
-        {
-          "time": "2:30–3:30pm",
-          "text": "Late lunch near the beach."
-        },
-        {
-          "time": "3:45–5:00pm",
-          "text": "Relax, last photos, drive home."
-        },
-        {
-          "time": "8:30–9:30pm",
-          "text": "Optional dinner near home."
-        }
-      ],
+      "schedule": [],
       "places": {
-        "heading": "Best photo spots",
+        "heading": "Best spots today",
         "items": [
+          {
+            "name": "Taronga Giraffe Encounter",
+            "text": "Daily at 10:40am. A$39.95 covers up to 4 people. Zoo entry is extra (about A$50–55 per adult).",
+            "url": "https://www.taronga.org.au/sydney-zoo/encounters-and-experiences/animal-encounters/giraffe/",
+            "map": "Taronga Zoo Sydney",
+            "photo": "giraffe"
+          },
           {
             "name": "Bondi Pavilion",
             "text": "The classic beach postcard.",
@@ -483,7 +464,7 @@
         ]
       },
       "parking": {
-        "heading": "Where to park (all within 1 km)",
+        "heading": "Where to park",
         "options": [
           {
             "name": "Free streets in North Bondi",
@@ -504,6 +485,12 @@
             "price": "2 hours free (4 hours on weekdays for free Westfield members). Bus fares for 10+ people add up, so check the total",
             "map": "Westfield Bondi Junction",
             "url": "https://www.westfield.com.au/bondijunction/service/2Qrh4iPVrG6KwmMAuKysGI/parking"
+          },
+          {
+            "name": "Taronga Zoo car park",
+            "walk": "Bradleys Head Road, at the top entrance.",
+            "price": "About A$18–24 per day per car. Check the machine",
+            "map": "Taronga Zoo car park Bradleys Head Road"
           }
         ],
         "note": "Easiest plan: drop elders at the Pavilion, then park on the free streets."
@@ -542,7 +529,93 @@
           "map": "Funky Pies Bondi",
           "photo": "pie"
         }
-      ]
+      ],
+      "options": {
+        "heading": "Plan: pick one",
+        "items": [
+          {
+            "name": "Option A: Giraffes for two, Bondi for all",
+            "who": "Two of us go to Taronga Zoo for the morning. Everyone else does Bondi. We all meet for lunch. Uses both cars.",
+            "schedule": [
+              {
+                "time": "9:15am",
+                "text": "Zoo pair: drive to Taronga Zoo (about 15–20 min). Park on Bradleys Head Road.",
+                "map": "Taronga Zoo Sydney"
+              },
+              {
+                "time": "9:30am",
+                "text": "Zoo opens. Buy the Giraffe Encounter at the Top Plaza shop (from 9am) or in the Taronga app."
+              },
+              {
+                "time": "10:40am",
+                "text": "Feed the giraffes, with the harbour behind them. Then see the koalas and kangaroos."
+              },
+              {
+                "time": "12:45pm",
+                "text": "Zoo pair: drive to Bondi (about 35–45 min)."
+              },
+              {
+                "time": "10:00am",
+                "text": "Family: Leave home (about 35–45 min). Drop elders at Bondi Pavilion, then park."
+              },
+              {
+                "time": "10:45am–12:15pm",
+                "text": "Bondi Beach walk, Pavilion and beach photos.",
+                "map": "Bondi Pavilion"
+              },
+              {
+                "time": "12:15–2:15pm",
+                "text": "Bondi Icebergs viewpoint. Relax at a café. Fitter guests can walk part of the coast path.",
+                "map": "Bondi Icebergs"
+              },
+              {
+                "time": "2:30–3:30pm",
+                "text": "Late lunch near the beach."
+              },
+              {
+                "time": "3:45–5:00pm",
+                "text": "Relax, last photos, drive home."
+              },
+              {
+                "time": "8:30–9:30pm",
+                "text": "Optional dinner near home."
+              }
+            ]
+          },
+          {
+            "name": "Option B: Everyone to Taronga Zoo",
+            "who": "Whole family goes to the zoo instead of Bondi. Big harbour views, lots of Australian animals.",
+            "schedule": [
+              {
+                "time": "9:15am",
+                "text": "Leave home in both cars (about 15–20 min). Park on Bradleys Head Road.",
+                "map": "Taronga Zoo Sydney"
+              },
+              {
+                "time": "9:30am",
+                "text": "Zoo opens. Buy Giraffe Encounter tickets at the Top Plaza shop. One ticket covers up to 4 people."
+              },
+              {
+                "time": "10:40am",
+                "text": "Giraffe feeding. Then koalas, kangaroos and the harbour lookouts at an easy pace."
+              },
+              {
+                "time": "2:30–3:30pm",
+                "text": "Late lunch at the zoo cafés, or in Mosman. Check vegetarian options and ask about seafood."
+              },
+              {
+                "time": "3:30–4:30pm",
+                "text": "Last animals, then drive home and rest."
+              },
+              {
+                "time": "8:30–9:30pm",
+                "text": "Optional dinner near home."
+              }
+            ],
+            "note": "The zoo is on a steep hill. The Sky Safari cable car is closed while a new one is built, so elders should keep to the top half and take breaks."
+          }
+        ]
+      }
     },
     {
       "id": "tue",

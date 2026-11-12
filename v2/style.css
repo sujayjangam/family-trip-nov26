@@ -7,3 +7,4 @@
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
 
 img[src="img/opera.jpg"]{object-position:82% 50%}
+.option{border:2px solid var(--day);border-radius:14px;padding:4px 16px 12px;margin-bottom:12px;background:var(--paper)}.option summary{padding:12px 0;font-size:20px;color:var(--day)}.option[open] summary{border-bottom:1px solid #ccd8df}.option-who{margin-top:12px}.option .timeline li:last-child{border-bottom:0}
