@@ -1,0 +1,428 @@
+{
+  "opera": {
+    "src": "img/opera.jpg",
+    "w": 1000,
+    "h": 408,
+    "alt": "Sydney Opera House and Harbour Bridge",
+    "credit": "J woodward",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_and_Harbour_Bridge.jpg"
+  },
+  "bridge": {
+    "src": "img/bridge.jpg",
+    "w": 1000,
+    "h": 750,
+    "alt": "Harbour Bridge seen from the Opera House",
+    "credit": "Vakrieger",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sydney_Harbour_Bridge_View_from_Opera_House.jpg"
+  },
+  "ayrfield": {
+    "src": "img/ayrfield.jpg",
+    "w": 1000,
+    "h": 720,
+    "alt": "SS Ayrfield, the \"floating forest\" shipwreck",
+    "credit": "Yucalyptus",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:SS_Ayrfield.jpg"
+  },
+  "brickpit": {
+    "src": "img/brickpit.jpg",
+    "w": 1000,
+    "h": 836,
+    "alt": "Brickpit Ring Walk, Sydney Olympic Park",
+    "credit": "aussiegall from sydney, Australia",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Brickpit_Ring_Walk_Bicentenial_Park_(401739071).jpg"
+  },
+  "skyway": {
+    "src": "img/skyway.jpg",
+    "w": 1000,
+    "h": 548,
+    "alt": "Scenic Skyway over the Jamison Valley",
+    "credit": "Bjørn Christian Tørrissen",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Scenic_World_Skyway.jpg"
+  },
+  "sisters": {
+    "src": "img/sisters.jpg",
+    "w": 1000,
+    "h": 666,
+    "alt": "The Three Sisters from Echo Point",
+    "credit": "Unyxium",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Three_Sisters_Katoomba_IMG_5370.jpg"
+  },
+  "bondi": {
+    "src": "img/bondi.jpg",
+    "w": 1000,
+    "h": 750,
+    "alt": "Bondi Beach",
+    "credit": "Ttabett",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bondi_Beach_Sydney.jpg"
+  },
+  "newcastle": {
+    "src": "img/newcastle.jpg",
+    "w": 1000,
+    "h": 750,
+    "alt": "Newcastle Interchange station",
+    "credit": "UnitedB1",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Newcastle_Interchange_2022.jpg"
+  },
+  "forecourt": {
+    "src": "img/forecourt.jpg",
+    "w": 960,
+    "h": 720,
+    "alt": "Opera House forecourt",
+    "credit": "-wuppertaler",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:AUS_Sydney,_Central_Business_District,_Sydney_Opera_House_Forecourt_005.jpg"
+  },
+  "quayeast": {
+    "src": "img/quayeast.jpg",
+    "w": 960,
+    "h": 472,
+    "alt": "Opera House from Circular Quay",
+    "credit": "Raaj Kishore Biswas",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_sunset.jpg"
+  },
+  "hickson": {
+    "src": "img/hickson.jpg",
+    "w": 960,
+    "h": 626,
+    "alt": "Sydney Harbour Bridge",
+    "credit": "Bahnfrend",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sydney_Harbour_Bridge,_2017_(01).jpg"
+  },
+  "bicentennial": {
+    "src": "img/bicentennial.jpg",
+    "w": 960,
+    "h": 252,
+    "alt": "Bicentennial Park lake",
+    "credit": "Felix Shannon",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lake_Belvedere,_Bicentennial_Park_in_Sydney_Olympic_Park.jpg"
+  },
+  "cableway": {
+    "src": "img/cableway.jpg",
+    "w": 960,
+    "h": 640,
+    "alt": "Scenic Cableway",
+    "credit": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Katoomba_(AU),_Scenic_World,_Scenic_Cableway_--_2019_--_1913.jpg"
+  },
+  "echopoint": {
+    "src": "img/echopoint.jpg",
+    "w": 960,
+    "h": 720,
+    "alt": "Three Sisters from Echo Point",
+    "credit": "-jkb-",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Blue_Mountains_-_Three_Sisters.jpg"
+  },
+  "pavilion": {
+    "src": "img/pavilion.jpg",
+    "w": 960,
+    "h": 540,
+    "alt": "Bondi Pavilion and beach",
+    "credit": "DXR",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bondi_Pavilion_and_beach,_south_view_20230224_1.jpg"
+  },
+  "icebergsday": {
+    "src": "img/icebergsday.jpg",
+    "w": 960,
+    "h": 640,
+    "alt": "Bondi Icebergs ocean pool",
+    "credit": "Kristina D.C. Hoeppner",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bondi_Icebergs_pools.jpg"
+  },
+  "coastwalk": {
+    "src": "img/coastwalk.jpg",
+    "w": 960,
+    "h": 392,
+    "alt": "Bondi coastal walk",
+    "credit": "Maurice van Creij",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bondi_coastal_walk_-_panoramio.jpg"
+  },
+  "central": {
+    "src": "img/central.jpg",
+    "w": 960,
+    "h": 788,
+    "alt": "Central Station clock tower",
+    "credit": "Sardaka",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Central_Railway_clock_tower_001a.jpg"
+  },
+  "pancakes": {
+    "src": "img/pancakes.jpg",
+    "w": 960,
+    "h": 640,
+    "alt": "Pancakes",
+    "credit": "Herson Rodriguez hero",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pancakes_with_Berries_(Unsplash).jpg"
+  },
+  "thaicurry": {
+    "src": "img/thaicurry.jpg",
+    "w": 960,
+    "h": 724,
+    "alt": "Thai curry",
+    "credit": "Andy Li",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Yellow_curry_and_green_curry_-_Nok_Nok_Kitchen_at_The_Cow_2025-09-30.jpg"
+  },
+  "mezze": {
+    "src": "img/mezze.jpg",
+    "w": 960,
+    "h": 652,
+    "alt": "Falafel and mezze plate",
+    "credit": "young shanahan",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Food_in_Israel.jpg"
+  },
+  "paneer": {
+    "src": "img/paneer.jpg",
+    "w": 827,
+    "h": 508,
+    "alt": "Paneer curry and naan",
+    "credit": "Shashank7200",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Shahi_Paneer_%26_Butter_Naan.jpg"
+  },
+  "vegburger": {
+    "src": "img/vegburger.jpg",
+    "w": 960,
+    "h": 660,
+    "alt": "Plant-based burger",
+    "credit": "Jennifer from Vancouver, Canada",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Vegan_Burger_(5841255378).jpg"
+  },
+  "vnnoodle": {
+    "src": "img/vnnoodle.jpg",
+    "w": 960,
+    "h": 720,
+    "alt": "Tofu noodle bowl",
+    "credit": "Andy Li",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:House_Special_Tofu_%26_Mushroom_-_The_Big_Bowl_2023-10-25.jpg"
+  },
+  "pizza": {
+    "src": "img/pizza.jpg",
+    "w": 960,
+    "h": 762,
+    "alt": "Vegetarian pizza",
+    "credit": "Petar Milošević",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Vegetarian_Pizza.jpg"
+  },
+  "pizza2": {
+    "src": "img/pizza2.jpg",
+    "w": 960,
+    "h": 576,
+    "alt": "Wood-fired pizza oven",
+    "credit": "Tony Webster from Portland, Oregon, United States",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Punch_Neapolitan_Pizza_(2257039638).jpg"
+  },
+  "focaccia": {
+    "src": "img/focaccia.jpg",
+    "w": 960,
+    "h": 638,
+    "alt": "Focaccia sandwich",
+    "credit": "Biswarup Ganguly",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Vegetable_Focaccia_Sandwich_-_Rajarhat_-_North_24_Parganas_2013-06-15_0615.JPG"
+  },
+  "froyo": {
+    "src": "img/froyo.jpg",
+    "w": 960,
+    "h": 720,
+    "alt": "Frozen yoghurt",
+    "credit": "JacquesDemien",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:A_bowl_of_frozen_yogurt.jpg"
+  },
+  "bscake": {
+    "src": "img/bscake.jpg",
+    "w": 960,
+    "h": 724,
+    "alt": "Strawberry cream cake",
+    "credit": "Andy Li",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Strawberry_cream_cake_-_Rawlab_2025-08-31.jpg"
+  },
+  "gelato": {
+    "src": "img/gelato.jpg",
+    "w": 960,
+    "h": 720,
+    "alt": "Gelato",
+    "credit": "Hwei Shan Lo",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gelato_at_the_Della_Palma_parlour_in_Rome_2.jpg"
+  },
+  "dondurma": {
+    "src": "img/dondurma.jpg",
+    "w": 960,
+    "h": 642,
+    "alt": "Turkish ice cream",
+    "credit": "travel oriented",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dondurma_stall_in_Myeongdong.jpg"
+  },
+  "baklava": {
+    "src": "img/baklava.jpg",
+    "w": 960,
+    "h": 638,
+    "alt": "Baklava",
+    "credit": "Kultigin",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Baklava_-_Turkish_special,_80-ply.JPEG"
+  },
+  "dumplings": {
+    "src": "img/dumplings.jpg",
+    "w": 960,
+    "h": 790,
+    "alt": "Vegetable dumplings",
+    "credit": "Valenzuela400",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Vegetable_Dumplings_filled13.jpg"
+  },
+  "pho": {
+    "src": "img/pho.jpg",
+    "w": 960,
+    "h": 724,
+    "alt": "Tofu pho",
+    "credit": "Andy Li",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tofu_noodle_soup_(Ph%E1%BB%9F_chay)_-_Pho_Hanoi_Authentic_2024-12-01.jpg"
+  },
+  "streetfood": {
+    "src": "img/streetfood.jpg",
+    "w": 960,
+    "h": 720,
+    "alt": "Steamed buns",
+    "credit": "J. Samuel Burner",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nangua_Baozi_(chinese_dumplings).jpg"
+  },
+  "risotto": {
+    "src": "img/risotto.jpg",
+    "w": 960,
+    "h": 640,
+    "alt": "Mushroom risotto",
+    "credit": "spurekar",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mushroom_and_Leek_Risotto_(49535206656).jpg"
+  },
+  "pitawrap": {
+    "src": "img/pitawrap.jpg",
+    "w": 960,
+    "h": 720,
+    "alt": "Falafel pita",
+    "credit": "Willis Lam",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Twilight_Cafe_and_Deli_Falafel_Pita_Sandwich_(18560111150).jpg"
+  },
+  "pie": {
+    "src": "img/pie.jpg",
+    "w": 960,
+    "h": 720,
+    "alt": "Vegetable pie",
+    "credit": "autumnroseuk",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Woolton_pie_(4653443530).jpg"
+  },
+  "momo": {
+    "src": "img/momo.jpg",
+    "w": 960,
+    "h": 640,
+    "alt": "Steamed momos",
+    "credit": "TAPAS KUMAR HALDER",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Steamed_Momos_-_KOLKATA.jpg"
+  },
+  "thali": {
+    "src": "img/thali.jpg",
+    "w": 960,
+    "h": 720,
+    "alt": "Vegetarian thali",
+    "credit": "Rajeeb Dutta",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:North_Indian_Vegetarian_Thali-MB51.jpg"
+  },
+  "padthai": {
+    "src": "img/padthai.jpg",
+    "w": 960,
+    "h": 644,
+    "alt": "Pad thai with tofu",
+    "credit": "avlxyz",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pad_Thai_tofu_and_veg_-_Mint_Thai_AUD9.jpg"
+  },
+  "koala": {
+    "src": "img/koala.jpg",
+    "w": 1280,
+    "h": 853,
+    "alt": "A koala at Featherdale Wildlife Park",
+    "credit": "Sadopaul",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:A_koala_at_Featherdale_Wildlife_Park_2025_(11).jpg"
+  },
+  "giraffe": {
+    "src": "img/giraffe.jpg",
+    "w": 1280,
+    "h": 878,
+    "alt": "Giraffe at Taronga Zoo, Sydney",
+    "credit": "Sardaka",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Taronga_Zoo_giraffe_001.jpg"
+  },
+  "roo": {
+    "src": "img/roo.jpg",
+    "w": 1280,
+    "h": 853,
+    "alt": "Kangaroo looking up for food",
+    "credit": "Duolanga",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kangaroo_looking_up_at_the_camera.jpg",
+    "pos": "45% 40%"
+  },
+  "harbour": {
+    "src": "img/harbour.jpg",
+    "w": 1280,
+    "h": 1920,
+    "alt": "Opera House and Harbour Bridge at sunset, seen from the sandstone rocks near Mrs Macquarie’s Point",
+    "credit": "Timothy M Roberts",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Opera_House_Harbour_Bridge_sunset_(21000910186).jpg"
+  },
+  "dusk": {
+    "src": "img/dusk.jpg",
+    "w": 1920,
+    "h": 827,
+    "pos": "32% 50%",
+    "alt": "Opera House and Harbour Bridge at dusk",
+    "credit": "Benh LIEU SONG (Flickr)",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_and_Harbour_Bridge_Dusk_2019-06-21.jpg"
+  },
+  "koala2": {
+    "src": "img/koala2.jpg",
+    "w": 1280,
+    "h": 853,
+    "pos": "62% 45%",
+    "alt": "A koala in a gum tree at Featherdale Wildlife Park",
+    "credit": "Sadopaul",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:A_koala_at_Featherdale_Wildlife_Park_2025_(17).jpg"
+  }
+}
